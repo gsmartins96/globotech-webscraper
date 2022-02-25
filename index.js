@@ -4,6 +4,8 @@ const fs = require('fs');
 
 async function search(){
     const url = 'https://g1.globo.com';
+    var noticeLink, title, image, subtitle
+    var relatedItems = []
     const news = []
 
     try {
@@ -12,11 +14,11 @@ async function search(){
         const $ = cheerio.load(html)
 
         $('.feed-post-body', html).each((i, element) => {
-            var relatedItems = []
-            var noticeLink = $(element).find('.feed-post-link').attr("href")
-            var title = $(element).find('.feed-post-link').text()                       // Item 2
-            var image = $(element).find('.feed-media-wrapper').find('a').attr("href")   // Item 4
-            var subtitle = $(element).find('.feed-post-header-chapeu').text()           // Item 1
+            relatedItems = []
+            noticeLink = $(element).find('.feed-post-link').attr("href")
+            title = $(element).find('.feed-post-link').text()                       // Item 2
+            image = $(element).find('.feed-media-wrapper').find('a').attr("href")   // Item 4
+            subtitle = $(element).find('.feed-post-header-chapeu').text()           // Item 1
 
             $(element).find('.bstn-relateditems').each((i, link) => {                   // Item 3
                 $(link).find('a').each((i, text) => {
@@ -39,7 +41,7 @@ async function search(){
         console.log(err)
     }
 
-    fs.writeFile(`${__dirname}/title.json`,  JSON.stringify(news, null, '\t'), 'utf-8', err => {
+    fs.writeFile(`${__dirname}/news.json`,  JSON.stringify(news, null, '\t'), 'utf-8', err => {
         if (err) {
           console.error(err)
           return
