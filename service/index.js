@@ -6,8 +6,7 @@ const create = require('../page/createPage')
 async function main(){
     if(await getPageInfo()){
         const news = await readFile();
-
-        create.page()
+        create.page(JSON.parse(news));
     }
 }
 
@@ -26,10 +25,10 @@ async function getPageInfo(){
             relatedItems = []
             noticeLink = $(element).find('.feed-post-link').attr("href")
             title = $(element).find('.feed-post-link').text()                       // Item 2
-            image = $(element).find('.bstn-fd-picture-image').attr("src")   // Item 4
+            image = $(element).find('.bstn-fd-picture-image').attr("src")           // Item 4
             subtitle = $(element).find('.feed-post-header-chapeu').text()           // Item 1
 
-            $(element).find('.bstn-relateditems').each((i, link) => {                   // Item 3
+            $(element).find('.bstn-relateditems').each((i, link) => {               // Item 3
                 $(link).find('a').each((i, text) => {
                     relatedItems.push({
                         relatedTitle: $(text).text(),
@@ -69,4 +68,4 @@ async function readFile(){
     return news
 }
 
-main()
+window.onload = () => main()

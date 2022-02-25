@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial';
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #bbb;
+    padding: 15px 0 15px 0;
+    width: 1000px
+}
+
+.image {
+    width: 440px;
+    height: 230px;
+}
+
+.title {
+    color: #c4170c
+}
+
+.image-container {
+    margin-right: 15px;
+}
+
+.subItem {
+    text-decoration: none;
+    color: #c4170c
+}
+
+.ul-relatedItems {
+    padding: 0 0 0 16px;
+    list-style-type: disc;
+    color: #555
+}
