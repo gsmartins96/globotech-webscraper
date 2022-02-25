@@ -1,14 +1,6 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
-const create = require('../page/createPage')
-
-async function main(){
-    if(await getPageInfo()){
-        const news = await readFile();
-        create.page(JSON.parse(news));
-    }
-}
 
 async function getPageInfo(){
     const url = 'https://g1.globo.com';
@@ -50,22 +42,6 @@ async function getPageInfo(){
     }
 
     fs.writeFileSync(`${__dirname}/news.json`,  JSON.stringify(news, null, '\t'), "utf8")
-    if(news.length != null){
-        return true
-    } else {
-        return false
-    }
 }
 
-async function readFile(){
-    var news;
-    try{
-        news = fs.readFileSync(`${__dirname}/news.json`, 'utf-8')
-    } catch (err) {
-        console.error(err)
-    }
-
-    return news
-}
-
-window.onload = () => main()
+getPageInfo()

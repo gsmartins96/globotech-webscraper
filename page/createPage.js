@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 async function page(){
-    const news = await readFile();
+    const news = await readFile()
 
     JSON.parse(news).forEach((noticia, i) => {
         console.log('Noticia: ', noticia)
@@ -40,4 +40,3 @@ async function readFile(){
 
 page()
 
-// module.exports = { page };
