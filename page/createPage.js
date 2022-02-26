@@ -1,30 +1,33 @@
-const fs = require('fs');
-
-async function page(){
-    const news = await readFile()
-
-    JSON.parse(news).forEach((noticia, i) => {
-        console.log('Noticia: ', noticia)
-        console.log('---------------------------------------------')
-        document.querySelector('container').insertAdjacentHTML("afterbegin",`
-            <div class="image-container">
-                <img 
-                    src="${noticia.image}"
-                    class="image"
-                />
-            </div>
-            <div>
-                <h2 class="title">${noticia.title}</h2>
-                <ul class="ul-relatedItems">
-                    <li>
-                        <a href="https://g1.globo.com/mundo/noticia/2022/02/25/guerra-na-ucrania-kiev-tem-registros-de-explosoes-pelo-2o-dia-apos-invasao-pela-russia.ghtml" class="subItem">
-                            Putin admite negociar, mas incentiva golpe militar na Ucrânia
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        `)
-    })
+function page(){
+    fetch('../webCrawler/news.json')
+        .then(response => response.json()) 
+        .then(news => 
+            news.forEach((noticia, i) => {
+                document.querySelector('.main_container').insertAdjacentHTML("afterbegin", `
+                    <div class="container">
+                        <div class="image-container">
+                            <img 
+                                src="${noticia.image}"
+                                class="image"
+                            />
+                        </div>
+                        <div>
+                            <h2 class="title">${noticia.title}</h2>
+                            <ul class="ul-relatedItems">
+                            ${noticia.relatedItems.forEach((relatedItem, i) => {`
+                                ${console.log(relatedItem.relatedTitle)}
+                                <li>
+                                    <a href="${relatedItem.relatedLink}" class="subItem">
+                                        "${relatedItem.relatedTitle}"
+                                    </a>
+                                </li>
+                            `})}
+                            </ul>
+                        </div>
+                    </div>
+                `)
+            })
+        )  
 }
 
 async function readFile(){
@@ -38,5 +41,4 @@ async function readFile(){
     return news
 }
 
-page()
-
+window.onload = () => page()
