@@ -16,4 +16,4 @@ Primeiro rode o web crawler para capturar novas noticias:
 
  - Verifique o arquivo news.json e todas as noticias listadas na página inicial do g1 estará nele.
 
- - Navegue até a pasta **page** e abra o ``index.html`` para visualizar as noticias capturadas no crawler.
+ - Usando o Visual Studio Code, para visualizar é preciso iniciar um "servidor" através do botão Go Live dentro do VSCode que irá abrir a pasta do projeto e então basta navegar até a pasta que tem o index.html.
