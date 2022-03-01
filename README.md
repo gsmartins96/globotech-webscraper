@@ -16,4 +16,4 @@ Na pasta raiz do projeto, rode o web crawler para capturar novas noticias:
 
 ### Visualizando os dados no browser:
 
- - Usando o Visual Studio Code, para visualizar é preciso iniciar um "servidor" através do botão Go Live dentro do VSCode que irá abrir a pasta do projeto e então basta navegar até a pasta que tem o index.html.
+ - Usando o Visual Studio Code, para visualizar é preciso iniciar um "servidor" através do botão Go Live dentro do VSCode que irá abrir a pasta do projeto e então basta navegar até ``page/index.html``.
