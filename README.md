@@ -8,7 +8,7 @@
 
 ## Como usar
 
-Na pasta raiz do projeoto, rode o web crawler para capturar novas noticias:
+Na pasta raiz do projeto, rode o web crawler para capturar novas noticias:
  - ``npm run getnews``
 
  ou
