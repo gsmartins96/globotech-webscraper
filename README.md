@@ -9,11 +9,11 @@
 ## Como usar
 
 Primeiro rode o web crawler para capturar novas noticias:
- - Navegue até a pasta webCrawler: ``cd webCrawler/``  
- - Rode o script para capturar as informação do g1 e salvar em **news.json**
- 
- ``node index.js``
+ - ``npm run getnews``
 
- - Verifique o arquivo news.json e todas as noticias listadas na página inicial do g1 estará nele.
+ ou
+ - ``yarn getnews``
 
- - Navegue até a pasta **page** e abra o ``index.html`` para visualizar as noticias capturadas no crawler.
+### Visualizando os dados no browser:
+
+ - Usando o Visual Studio Code, para visualizar é preciso iniciar um "servidor" através do botão Go Live dentro do VSCode que irá abrir a pasta do projeto e então basta navegar até a pasta que tem o index.html.

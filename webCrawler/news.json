@@ -1,108 +1,107 @@
 [
 	{
-		"title": "GLOBONEWS: assista ao debate no Conselho de Segurança da ONU",
+		"title": "VÍDEO mostra míssil atingindo torre de TV na capital da Ucrânia",
 		"relatedItems": [
 			{
-				"relatedTitle": "Putin admite negociar, mas incentiva golpe militar na Ucrânia",
-				"relatedLink": "https://g1.globo.com/mundo/noticia/2022/02/25/guerra-na-ucrania-kiev-tem-registros-de-explosoes-pelo-2o-dia-apos-invasao-pela-russia.ghtml"
+				"relatedTitle": "Grande bola de fogo é vista na base da estrutura; assista",
+				"relatedLink": "https://g1.globo.com/mundo/video/video-flagra-ataque-perto-de-torre-de-tv-em-kiev-na-ucrania-10346909.ghtml"
 			},
 			{
-				"relatedTitle": "Aliados da Otan vão fornecer mais armas à Ucrânia",
-				"relatedLink": "https://g1.globo.com/mundo/ao-vivo/guerra-ucrania-russia-putin-invasao.ghtml?postId=92c6cc19-161c-4451-ad4a-4882980599d0"
+				"relatedTitle": "Pedestres correm pelas ruas após ataque; veja vídeo",
+				"relatedLink": "https://g1.globo.com/mundo/video/russia-ataca-torre-de-tv-em-kiev-diz-governo-da-ucrania-10346357.ghtml"
 			}
 		],
-		"image": "https://s2.glbimg.com/UjyPhMQRB6ejRl7sqX8K3JlIQIg=/0x0:667x375/540x304/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/U/c/9hbdbAQBeNgiXh1JqALg/reuniao-onu.jpg",
+		"image": "https://s2.glbimg.com/3nQtO8Cg0YxUUpvzCr2VjjgvsSI=/0x0:720x405/540x304/smart/filters:max_age(3600)/https://s2.glbimg.com/7QLxOJfi-ryKqBN1_u44KRjiiRc=/720x0/filters:max_age(3600)/s03.video.glbimg.com/deo/vi/22/71/10347122",
+		"noticeLink": "https://g1.globo.com/mundo/noticia/2022/03/01/ataque-russo-contra-torre-de-televisao-de-kiev-e-deixa-cinco-mortos.ghtml",
+		"subtitle": "Ofensiva em Kiev"
+	},
+	{
+		"title": "Míssil russo atinge prédio do governo em Kharkiv; assista",
+		"relatedItems": [
+			{
+				"relatedTitle": "Imagens internas mostram destruição dentro do prédio",
+				"relatedLink": "https://g1.globo.com/mundo/video/veja-destruicao-em-predio-do-governo-atingido-por-missil-em-kharkiv-10345427.ghtml"
+			}
+		],
+		"image": "https://s2.glbimg.com/6eahwlQzlCdvIqPPavVaE0k7aCw=/0x0:1920x1080/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/a/o/sQB9HBTKG5HoMZ6JVN9A/explosao-de-predio-em-kharkiv.jpg",
+		"noticeLink": "https://g1.globo.com/mundo/noticia/2022/03/01/explosao-atinge-predio-em-kharkiv-segunda-maior-cidade-da-ucrania-veja-video.ghtml",
+		"subtitle": ""
+	},
+	{
+		"title": "O que são bombas de fragmentação? Brasil já foi denunciado por produzi-las",
+		"relatedItems": [
+			{
+				"relatedTitle": "Confira aqui tudo o que você precisa saber sobre a guerra",
+				"relatedLink": "https://g1.globo.com/mundo/ucrania-russia/noticia/2022/02/25/o-que-voce-precisa-saber-sobre-a-guerra-na-ucrania.ghtml"
+			},
+			{
+				"relatedTitle": "6º DIA DE GUERRA: Rússia ataca duas das principais cidades ucranianas",
+				"relatedLink": "https://g1.globo.com/mundo/ucrania-russia/noticia/2022/03/01/assembleia-geral-da-onu-busca-solucoes-para-encerrar-conflitos-na-ucrania-guerra-chega-ao-sexto-dia.ghtml"
+			}
+		],
+		"image": "https://s2.glbimg.com/dHM5hbWLQEoV6cdpQ8rMtbbEkJI=/0x53:656x422/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/T/E/w9VgFvRoG7QlpsLgEXEg/cluster.jpg",
+		"noticeLink": "https://g1.globo.com/mundo/ucrania-russia/noticia/2022/03/01/entenda-o-que-sao-as-bombas-de-fragmentacao.ghtml",
+		"subtitle": "Explosivos proibidos"
+	},
+	{
+		"title": "GLOBONEWS: veja as últimas notícias e análises sobre a guerra",
+		"relatedItems": [],
+		"image": "https://s2.glbimg.com/DOtExGMj-tMDsHzYpwkMb5zkRAs=/7x0:828x462/540x304/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/G/2/vnfKSLQzKWLdsoV1s6oQ/gnews2.png",
 		"noticeLink": "https://g1.globo.com/globonews/ao-vivo/globonews-ao-vivo.ghtml",
 		"subtitle": ""
 	},
 	{
-		"title": "Trem com brasileiros deixa Kiev rumo a cidade perto da Romênia",
-		"relatedItems": [
-			{
-				"relatedTitle": "Invasão russa causa fuga em massa de ucranianos; veja fotos",
-				"relatedLink": "https://g1.globo.com/mundo/noticia/2022/02/25/moradores-da-ucrania-tentam-deixar-o-pais-apos-ataque-russo-fotos.ghtml"
-			}
-		],
-		"image": "https://s2.glbimg.com/Xu0KZqry49X_BkHjY8feKfw7a_0=/0x524:960x1064/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/N/v/lQNm5VRx6sxhJL3mgTIg/microsoftteams-image-3-.png",
-		"noticeLink": "https://g1.globo.com/mundo/ucrania-russia/noticia/2022/02/25/trem-com-brasileiros-parte-de-kiev-com-destino-cidade-ucraniana-proxima-da-romenia-e-da-moldavia.ghtml",
-		"subtitle": "Fuga da guerra"
-	},
-	{
-		"title": "EUA, União Europeia e Reino Unido anunciam sanções contra Putin",
-		"relatedItems": [
-			{
-				"relatedTitle": "Manifestantes protestam pelo mundo contra a invasão da Ucrânia",
-				"relatedLink": "https://g1.globo.com/mundo/noticia/2022/02/25/manifestantes-protestam-pelo-mundo-contra-a-invasao-da-ucrania-fotos.ghtml"
-			}
-		],
-		"image": "https://s2.glbimg.com/TrMDfHmumNcS-jZJTKKIhE-aFRs=/0x278:3615x2311/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/C/X/Pf45ebSIOjrV1lb7gCuQ/2022-02-24t171909z-1580871225-rc2ics9cbdub-rtrmadp-3-ukraine-crisis-russia-business-putin.jpg",
-		"noticeLink": "https://g1.globo.com/mundo/ucrania-russia/noticia/2022/02/25/eua-uniao-europeia-e-reino-unido-anunciam-sancoes-contra-putin.ghtml",
+		"title": "Ataque em torre de TV, explosão em prédio do governo e mais cenas da guerra",
+		"relatedItems": [],
+		"image": "https://s2.glbimg.com/-nFK3IvxJOBW2Endy1lCeSoUHss=/0x0:860x484/540x304/smart/http://s2.glbimg.com/w0-eI-qsRYMy_vbfX8zWazVmrUc=/filters:max_age(3600)/s03.video.glbimg.com/deo/vi/22/71/10347122",
+		"noticeLink": "https://g1.globo.com/mundo/ucrania-russia/playlist/videos-ucrania-sob-ataque-cenas-da-guerra.ghtml",
 		"subtitle": ""
 	},
 	{
-		"title": "Prefeito diz que novas explosões foram ouvidas em Kiev",
+		"title": "Putin está muito enganado se acha que Otan vai recuar, diz Boris Johnson ",
 		"relatedItems": [
 			{
-				"relatedTitle": "FOTOS: área residencial é destruída após bombardeio na capital",
-				"relatedLink": "https://g1.globo.com/mundo/noticia/2022/02/25/guerra-na-ucrania-fotos.ghtml"
+				"relatedTitle": "Zelensky é aplaudido de pé no Parlamento Europeu; assista",
+				"relatedLink": "https://g1.globo.com/mundo/noticia/2022/03/01/volodymyr-zelensky-da-ucrania-para-uniao-europeia-provem-que-estao-conosco.ghtml"
 			}
 		],
-		"image": "https://s2.glbimg.com/DbHBTY1NqUglnU7fbXXtSnsksRc=/0x251:5472x3329/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/Y/H/qTSAHHSzeSpoAwDfGUbg/ap22056354870204.jpg",
-		"noticeLink": "https://g1.globo.com/mundo/ao-vivo/guerra-ucrania-russia-putin-invasao.ghtml?postId=33432e1f-e21d-41ee-8d7f-f565f8a19ca2",
+		"image": "https://s2.glbimg.com/ZnW-oJq0iqxEdJ9PbqUBMZ8wZZc=/0x0:1920x1080/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/i/x/fDNXCySD2ioz6o6XSkVw/boris-johnson-e-vladimir-putin-montagem-reuters.jpg",
+		"noticeLink": "https://g1.globo.com/mundo/ucrania-russia/noticia/2022/03/01/se-ele-acha-que-vai-fazer-a-otan-recuar-esta-muito-enganado-diz-boris-johnson-sobre-putin.ghtml",
 		"subtitle": ""
 	},
 	{
-		"title": "MAPAS mostram ataques da Rússia e caminho das tropas",
+		"title": "VÍDEO: dezenas de diplomatas boicotam discurso russo na ONU",
 		"relatedItems": [
 			{
-				"relatedTitle": "Cercada por russos, Kiev tem o tamanho de Salvador; conheça detalhes",
-				"relatedLink": "https://g1.globo.com/mundo/noticia/2022/02/25/onde-fica-kiev-a-capital-da-ucrania.ghtml"
+				"relatedTitle": "Disney, Sony e Warner suspendem estreias de filmes na Rússia",
+				"relatedLink": "https://g1.globo.com/pop-arte/cinema/noticia/2022/03/01/disney-e-sony-suspendem-estreias-de-filmes-na-russia.ghtml"
 			}
 		],
-		"image": "https://s2.glbimg.com/R55VO3u6JKQ112NrMws0zYhG4UU=/0x0:562x316/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/e/C/9KPrCER5iRkqjKWm5jKw/gif-mapa.gif",
-		"noticeLink": "https://g1.globo.com/mundo/noticia/2022/02/21/mapa-conflito-ucrania-russia.ghtml",
+		"image": "https://s2.glbimg.com/6ZdwA1tjvc1SY_tJk12K4Qmg7b0=/0x0:720x405/540x304/smart/filters:max_age(3600)/https://s2.glbimg.com/vDqrNhS_fCwwnG7LDym1s1JMyzk=/720x0/filters:max_age(3600)/s01.video.glbimg.com/deo/vi/36/58/10345836",
+		"noticeLink": "https://g1.globo.com/mundo/noticia/2022/03/01/diplomatas-deixam-sala-durante-discurso-de-chanceler-da-russia-na-onu-veja-video.ghtml",
 		"subtitle": ""
 	},
 	{
-		"title": "Após invadir a Ucrânia, Rússia ameaça Finlândia e Suécia",
+		"title": "As empresas que deixaram a Rússia depois do início da guerra",
 		"relatedItems": [
 			{
-				"relatedTitle": "Por que Putin não quer a Ucrânia na Otan",
-				"relatedLink": "https://g1.globo.com/mundo/ucrania-russia/noticia/2022/02/25/por-que-a-russia-nao-quer-a-ucrania-na-otan.ghtml"
+				"relatedTitle": "Gigantes dos contêineres suspendem transporte para a Rússia",
+				"relatedLink": "https://g1.globo.com/economia/noticia/2022/03/01/maersk-suspende-transporte-de-conteineres-para-a-russia.ghtml"
 			},
 			{
-				"relatedTitle": "Qual a reação da população russa à invasão da Ucrânia?",
-				"relatedLink": "https://g1.globo.com/mundo/noticia/2022/02/25/qual-a-reacao-da-populacao-russa-a-invasao-da-ucrania.ghtml"
+				"relatedTitle": "Sanções à Rússia podem levar mundo à recessão?",
+				"relatedLink": "https://g1.globo.com/economia/noticia/2022/03/01/guerra-na-ucrania-sancoes-financeiras-russia-recessao.ghtml"
 			}
 		],
-		"image": "https://s2.glbimg.com/aY_PCOj9s48R1Ld6gJ_w9yRZrtU=/0x0:4500x2531/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/x/E/1PPQV2Sn2ZJeEoLJI1Vg/2022-02-22t183532z-1-lynxmpei1l0wa-rtroptp-4-ucrania-crise-chancelaria-ilegitima.jpg",
-		"noticeLink": "https://g1.globo.com/mundo/ucrania-russia/noticia/2022/02/25/russia-diz-que-finlandia-e-suecia-enfrentarao-consequencias-militares-e-politicas-prejudiciais-se-tentarem-entrar-na-otan.ghtml",
-		"subtitle": ""
+		"image": "https://s2.glbimg.com/k5Nj7Zam1rTem5r1-RBHCMb4T2Q=/0x70:1200x745/540x304/smart/filters:max_age(3600)/https://s2.glbimg.com/GoV_YSdUZTZPCDXrwjcx2sgrFg0=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/x/J/UEl0vrT4aA6DTz5OMAdw/2022-02-27t171139z-1864022433-rc2hss9cs9oj-rtrmadp-3-ukraine-crisis-bp.jpg",
+		"noticeLink": "https://g1.globo.com/economia/noticia/2022/03/01/as-empresas-que-deixaram-a-russia-depois-do-inicio-da-guerra.ghtml",
+		"subtitle": "Economia"
 	},
 	{
-		"title": "Chernobyl está com 'níveis de radiação mais altos', diz representante da Ucrânia",
+		"title": "Quarta-feira de cinzas é feriado? Veja a situação nas capitais",
 		"relatedItems": [],
-		"image": "https://s2.glbimg.com/qqKBHInMbQXKrN-IU9Jjr01nhW0=/0x0:1200x675/540x304/smart/filters:max_age(3600)/https://s2.glbimg.com/10tQSCvU_LxgF3J4_oNkX63E91w=/1200x/smart/filters:cover():strip_icc()/s04.video.glbimg.com/x720/10334591.jpg",
-		"noticeLink": "https://g1.globo.com/mundo/ucrania-russia/noticia/2022/02/25/niveis-de-radiacao-mais-altos-que-o-normal-foram-registrados-em-chernobyl-diz-representante-da-embaixada-da-ucrania.ghtml",
-		"subtitle": ""
-	},
-	{
-		"title": "Do esporte à música: qual o peso dos boicotes para a Rússia",
-		"relatedItems": [
-			{
-				"relatedTitle": "Lojas de bebidas no Canadá param de vender vodcas russas",
-				"relatedLink": "https://g1.globo.com/mundo/ucrania-russia/noticia/2022/02/25/lojas-de-bebidas-no-canada-param-de-vender-produtos-de-origem-russa.ghtml"
-			}
-		],
-		"image": "https://s2.glbimg.com/e9JWW_WB3CIq3Qp8RAKdSEvUMKw=/0x40:1024x616/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/d/T/bEx8RPQbWicgCIOUGQEg/ap21142832208304.jpg",
-		"noticeLink": "https://g1.globo.com/mundo/ucrania-russia/noticia/2022/02/25/liga-dos-campeoes-formula-1-e-eurovision-o-que-sao-sancoes-colaterais-e-como-elas-afetam-a-russia.ghtml",
-		"subtitle": "Efeitos colaterais"
-	},
-	{
-		"title": "Moraes manda tirar Telegram do ar se ordem judicial não for cumprida",
-		"relatedItems": [],
-		"image": "https://s2.glbimg.com/ZXS-MEZ6uLiMV1LvVrIlm77cqIE=/343x71:1501x723/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/H/u/2jHs4bSdqpR0kS2B0hfA/51281561438-095d4cd8e0-k.jpg",
-		"noticeLink": "https://g1.globo.com/politica/noticia/2022/02/25/ministro-manda-tirar-telegram-do-ar-durante-48-horas-se-aplicativo-nao-cumprir-ordem-judicial.ghtml",
-		"subtitle": "App de mensagens"
+		"image": "https://s2.glbimg.com/4ysrC07mCQHzVUfKVkqEez1YM8Q=/0x0:4325x2433/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/B/C/THAtVwSzW7RmJgWkVcSA/age20220227013.jpg",
+		"noticeLink": "https://g1.globo.com/carnaval/2022/noticia/2022/03/01/quarta-feira-de-cinzas-e-feriado-veja-a-situacao-nas-capitais.ghtml",
+		"subtitle": "Carnaval 2022"
 	}
 ]

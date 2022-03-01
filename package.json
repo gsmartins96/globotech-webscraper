@@ -1,4 +1,14 @@
 {
+  "name": "globotech-webscraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "getnews": "node webCrawler/index.js"
+  },
+  "keywords": [],
+  "author": "Gabriel Martins",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.26.0",
     "cheerio": "^1.0.0-rc.10"

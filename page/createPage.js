@@ -15,13 +15,26 @@ function page(){
                             ${noticia.subtitle !== "" ? `<span>${noticia.subtitle}</span>` : ""}
                             <h2 class="title">${noticia.title}</h2>
                             <ul class="ul-relatedItems">
-                                ${noticia.relatedItems.forEach(item => {`
-                                    <li>
-                                        <a href="${item.relatedLink}" class="subItem">
-                                            ${item.relatedTitle}
-                                        </a>
-                                    </li>
-                                `})}
+                                ${noticia.relatedItems.length > 0 ?
+                                    noticia.relatedItems.length === 1 ? `
+                                        <li>
+                                            <a href="${noticia.relatedItems[0].relatedLink}" class="subItem">
+                                                ${noticia.relatedItems[0].relatedTitle}
+                                            </a>
+                                        </li>
+                                    `:`
+                                        <li>
+                                            <a href="${noticia.relatedItems[0].relatedLink}" class="subItem">
+                                                ${noticia.relatedItems[0].relatedTitle}
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="${noticia.relatedItems[1].relatedLink}" class="subItem">
+                                                ${noticia.relatedItems[1].relatedTitle}
+                                            </a>
+                                        </li>
+                                `    
+                                : ``}
                             </ul>
                         </div>
                     </div>
